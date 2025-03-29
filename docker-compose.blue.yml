@@ -4,4 +4,4 @@ services:
     image: 024848479449.dkr.ecr.us-east-1.amazonaws.com/acc-cicd:latest
     container_name: fastapi-blue
     ports:
-      - "8080:8000"
+      - "8001:8000"
