@@ -1,0 +1,7 @@
+version: "3"
+services:
+  fastapi-green:
+    image: 024848479449.dkr.ecr.us-east-1.amazonaws.com/acc-cicd:latest
+    container_name: fastapi-green
+    ports:
+      - "8081:8000"
